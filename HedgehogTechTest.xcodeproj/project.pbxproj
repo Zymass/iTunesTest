@@ -7,25 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18A0D80A2736E3D7004AB3F7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0D8092736E3D7004AB3F7 /* Model.swift */; };
+		18A0D80C2737EDC7004AB3F7 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0D80B2737EDC7004AB3F7 /* DetailVC.swift */; };
+		18A0D80E273802DF004AB3F7 /* DetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0D80D273802DF004AB3F7 /* DetailCollectionViewCell.swift */; };
+		18A0D815273951F4004AB3F7 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0D814273951F4004AB3F7 /* Business.swift */; };
+		18A0D81727395B13004AB3F7 /* MainEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0D81627395B12004AB3F7 /* MainEx.swift */; };
+		18A0D81927395CFC004AB3F7 /* DetailEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0D81827395CFC004AB3F7 /* DetailEx.swift */; };
 		18A1D03B2735688100AACE77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1D03A2735688100AACE77 /* AppDelegate.swift */; };
 		18A1D03D2735688100AACE77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1D03C2735688100AACE77 /* SceneDelegate.swift */; };
-		18A1D03F2735688100AACE77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1D03E2735688100AACE77 /* ViewController.swift */; };
+		18A1D03F2735688100AACE77 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1D03E2735688100AACE77 /* MainVC.swift */; };
 		18A1D0422735688100AACE77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A1D0402735688100AACE77 /* Main.storyboard */; };
 		18A1D0452735688100AACE77 /* HedgehogTechTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18A1D0432735688100AACE77 /* HedgehogTechTest.xcdatamodeld */; };
 		18A1D0472735688300AACE77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A1D0462735688300AACE77 /* Assets.xcassets */; };
 		18A1D04A2735688300AACE77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A1D0482735688300AACE77 /* LaunchScreen.storyboard */; };
+		18A1D0522735692600AACE77 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1D0512735692600AACE77 /* NetworkService.swift */; };
+		18AEC4292736DFB200CCF2A5 /* AlbumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AEC4282736DFB200CCF2A5 /* AlbumCollectionViewCell.swift */; };
+		A93AFD75DE6D024F6A08DD07 /* Pods_HedgehogTechTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6E9D741113433234449BB42 /* Pods_HedgehogTechTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18A0D8092736E3D7004AB3F7 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		18A0D80B2737EDC7004AB3F7 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		18A0D80D273802DF004AB3F7 /* DetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		18A0D814273951F4004AB3F7 /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		18A0D81627395B12004AB3F7 /* MainEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainEx.swift; sourceTree = "<group>"; };
+		18A0D81827395CFC004AB3F7 /* DetailEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEx.swift; sourceTree = "<group>"; };
 		18A1D0372735688100AACE77 /* HedgehogTechTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HedgehogTechTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A1D03A2735688100AACE77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18A1D03C2735688100AACE77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		18A1D03E2735688100AACE77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18A1D03E2735688100AACE77 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		18A1D0412735688100AACE77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18A1D0442735688100AACE77 /* HedgehogTechTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HedgehogTechTest.xcdatamodel; sourceTree = "<group>"; };
 		18A1D0462735688300AACE77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18A1D0492735688300AACE77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18A1D04B2735688300AACE77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A1D0512735692600AACE77 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		18AEC4282736DFB200CCF2A5 /* AlbumCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCollectionViewCell.swift; sourceTree = "<group>"; };
+		9FAD221B6A0186982DAD0495 /* Pods-HedgehogTechTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HedgehogTechTest.debug.xcconfig"; path = "Target Support Files/Pods-HedgehogTechTest/Pods-HedgehogTechTest.debug.xcconfig"; sourceTree = "<group>"; };
+		DD7181DF951F1DD7F5BE4266 /* Pods-HedgehogTechTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HedgehogTechTest.release.xcconfig"; path = "Target Support Files/Pods-HedgehogTechTest/Pods-HedgehogTechTest.release.xcconfig"; sourceTree = "<group>"; };
+		F6E9D741113433234449BB42 /* Pods_HedgehogTechTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HedgehogTechTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +53,71 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A93AFD75DE6D024F6A08DD07 /* Pods_HedgehogTechTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18A0D8082736E3C5004AB3F7 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				18A1D0512735692600AACE77 /* NetworkService.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		18A0D80F27395186004AB3F7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18A0D8092736E3D7004AB3F7 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18A0D810273951A5004AB3F7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18A1D03E2735688100AACE77 /* MainVC.swift */,
+				18A0D80B2737EDC7004AB3F7 /* DetailVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18A0D811273951B7004AB3F7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18AEC4282736DFB200CCF2A5 /* AlbumCollectionViewCell.swift */,
+				18A0D80D273802DF004AB3F7 /* DetailCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18A0D812273951C8004AB3F7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				18A0D81627395B12004AB3F7 /* MainEx.swift */,
+				18A0D81827395CFC004AB3F7 /* DetailEx.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		18A0D813273951D3004AB3F7 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				18A0D814273951F4004AB3F7 /* Business.swift */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
 		18A1D02E2735688100AACE77 = {
 			isa = PBXGroup;
 			children = (
 				18A1D0392735688100AACE77 /* HedgehogTechTest */,
 				18A1D0382735688100AACE77 /* Products */,
+				BD5C01BDD676E5BF215B674C /* Pods */,
+				EB00A5F8008E107930783E6D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,7 +134,12 @@
 			children = (
 				18A1D03A2735688100AACE77 /* AppDelegate.swift */,
 				18A1D03C2735688100AACE77 /* SceneDelegate.swift */,
-				18A1D03E2735688100AACE77 /* ViewController.swift */,
+				18A0D813273951D3004AB3F7 /* Business */,
+				18A0D812273951C8004AB3F7 /* Extension */,
+				18A0D811273951B7004AB3F7 /* View */,
+				18A0D810273951A5004AB3F7 /* Controller */,
+				18A0D80F27395186004AB3F7 /* Model */,
+				18A0D8082736E3C5004AB3F7 /* NetworkService */,
 				18A1D0402735688100AACE77 /* Main.storyboard */,
 				18A1D0462735688300AACE77 /* Assets.xcassets */,
 				18A1D0482735688300AACE77 /* LaunchScreen.storyboard */,
@@ -70,6 +149,23 @@
 			path = HedgehogTechTest;
 			sourceTree = "<group>";
 		};
+		BD5C01BDD676E5BF215B674C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FAD221B6A0186982DAD0495 /* Pods-HedgehogTechTest.debug.xcconfig */,
+				DD7181DF951F1DD7F5BE4266 /* Pods-HedgehogTechTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EB00A5F8008E107930783E6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6E9D741113433234449BB42 /* Pods_HedgehogTechTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18A1D04E2735688300AACE77 /* Build configuration list for PBXNativeTarget "HedgehogTechTest" */;
 			buildPhases = (
+				7B9465BC9FF85194922DD988 /* [CP] Check Pods Manifest.lock */,
 				18A1D0332735688100AACE77 /* Sources */,
 				18A1D0342735688100AACE77 /* Frameworks */,
 				18A1D0352735688100AACE77 /* Resources */,
+				276972B670376F33F7FE9B1B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,15 +234,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		276972B670376F33F7FE9B1B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HedgehogTechTest/Pods-HedgehogTechTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HedgehogTechTest/Pods-HedgehogTechTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HedgehogTechTest/Pods-HedgehogTechTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B9465BC9FF85194922DD988 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HedgehogTechTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18A1D0332735688100AACE77 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A0D80A2736E3D7004AB3F7 /* Model.swift in Sources */,
+				18A0D81927395CFC004AB3F7 /* DetailEx.swift in Sources */,
+				18AEC4292736DFB200CCF2A5 /* AlbumCollectionViewCell.swift in Sources */,
+				18A1D0522735692600AACE77 /* NetworkService.swift in Sources */,
+				18A0D81727395B13004AB3F7 /* MainEx.swift in Sources */,
+				18A0D815273951F4004AB3F7 /* Business.swift in Sources */,
 				18A1D0452735688100AACE77 /* HedgehogTechTest.xcdatamodeld in Sources */,
-				18A1D03F2735688100AACE77 /* ViewController.swift in Sources */,
+				18A1D03F2735688100AACE77 /* MainVC.swift in Sources */,
+				18A0D80C2737EDC7004AB3F7 /* DetailVC.swift in Sources */,
 				18A1D03B2735688100AACE77 /* AppDelegate.swift in Sources */,
 				18A1D03D2735688100AACE77 /* SceneDelegate.swift in Sources */,
+				18A0D80E273802DF004AB3F7 /* DetailCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +436,7 @@
 		};
 		18A1D04F2735688300AACE77 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FAD221B6A0186982DAD0495 /* Pods-HedgehogTechTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -316,6 +465,7 @@
 		};
 		18A1D0502735688300AACE77 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD7181DF951F1DD7F5BE4266 /* Pods-HedgehogTechTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
